@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
+a {
+    text-decoration-line: none;
+}
 
 body {
     width: 100%;
@@ -96,3 +103,62 @@ hr {
     color: white;
     background-color: #4ac007;
 }
+
+
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+}
+
+.foot {
+    margin-left: 10%;
+    margin-top: 30px;
+
+}
+
+li {
+    font-size: 0.8em;
+    display: inline-block;
+    color: #6b6a6a;
+}
+
+li a {
+    color: #969696;
+}
+
+li button {
+    width: 30px;
+    height: 22px;
+}
+
+.foot hr {
+    width: 75%;
+    margin-top: 15px;
+}
+
+.fin {
+    width: 75%;
+    text-align: left;
+}
+
+.fin a {
+
+    font-size: 0.85em;
+    color: #969696;
+    margin: 5px;
+
+}
+
+.foot p {
+    font-size: 0.85em;
+}
+
+.f {
+    margin-top: 15px;
+    font-size: 0.8em;
+    color: #969696;
+}
+
